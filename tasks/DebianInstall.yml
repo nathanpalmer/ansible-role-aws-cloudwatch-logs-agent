@@ -1,8 +1,4 @@
 ---
-
-- name: "Get ec2 facts (Debian)."
-  action: ec2_facts
-
 - name: "Update Package Lists (Debian)."
   apt:
     update_cache: yes
