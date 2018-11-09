@@ -1,4 +1,8 @@
 ---
+- name: Install boto3
+  pip:
+    name: boto3
+    executable: pip
 
 - name: "Download Install Script (Debian)."
   get_url:
